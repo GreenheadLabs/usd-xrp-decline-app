@@ -1,0 +1,3 @@
+timestamp,price
+1609459200000,0.22
+// Add rows of sample historical data (timestamp in ms, price in USD). Parse in JS if needed.
