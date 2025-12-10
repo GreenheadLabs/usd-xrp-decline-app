@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; text-align: center; background: #121212; color: #fff; margin: 0; padding: 20px; }
+h1 { color: #00ff99; } /* Green crypto vibe */
+#controls { margin: 20px 0; }
+#controls select, input, button { background: #333; color: #fff; border: 1px solid #00ff99; padding: 5px; }
+canvas { background: #1e1e1e; border: 1px solid #00ff99; margin: 20px auto; display: block; max-width: 100%; } /* Responsive */
+.spinner { display: none; color: #00ff99; font-size: 18px; margin: 20px; }
+@media (max-width: 600px) { canvas { width: 100%; height: auto; } }
