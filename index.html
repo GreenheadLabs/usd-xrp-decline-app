@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile-friendly -->
+    <title>USD Decline vs. XRP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.0.1"></script> <!-- For annotations -->
+</head>
+<body>
+    <h1>Historical XRP vs. USD (Showing Decline)</h1>
+    <div id="controls">
+        <label for="timeRange">Time Range:</label>
+        <select id="timeRange">
+            <option value="30">30 Days</option>
+            <option value="90">90 Days</option>
+            <option value="365" selected>1 Year</option>
+            <option value="max">All Time</option>
+        </select>
+        <label for="invert">Invert (USD/XRP):</label>
+        <input type="checkbox" id="invert">
+        <button id="refresh">Refresh</button>
+    </div>
+    <div id="loading" class="spinner">Loading...</div>
+    <canvas id="xrpChart" width="800" height="400"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
